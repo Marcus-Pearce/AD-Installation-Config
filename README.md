@@ -85,10 +85,8 @@ In DC-1 go to the Server Manager and click Add roles and features. Continue step
 
 ![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/384e7296-2141-488d-ab68-ca3c909b072d)
 
-
 </p>
 <br />
-
 
 <p>
 Promote the server to a domain controller by going to the caution notification at the top right .
@@ -100,9 +98,66 @@ Promote the server to a domain controller by going to the caution notification a
 
 Create a new forest named mydomain.com
 
-![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/cf0c43be-1109-48bd-8006-be83a825d6f7)
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/791da845-c786-4271-ac20-9144b257797a)
 
 <p>
 
+The VM will close due to restart needed after Active Directory is installed. Log back into DC-1 with mydomain.com/labuser.
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/a68788fc-be76-4588-8e60-56883d97c654)
+
 </p>
 <br />
+Go to Active Directory Users and Computers on the Tools drop down.
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/80820c53-999d-4439-bb05-491319d7afab)
+
+<p>
+Create a new Organizational Unit named _EMPLOYEES and one named _ADMINS.
+  
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/a8525e70-a694-4389-9ab4-6500d00f8051)
+
+</p>
+<br />
+
+<p>
+Create a new users named Jane and John Doe. Add Jane to the Domain Admins security group.
+ 
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/99a377e8-b453-4b86-a908-b60de25c0efb)
+
+</p>
+<br />
+
+<p>
+Log out of the Virtual Machine and log back into using Remote Desktop using jane_admin this time.
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/ca33d9a7-9c5d-481c-af8e-042b566595fc)
+
+</p>
+<br />
+
+Set Client-1's DNS settings to DC-1's Private IP Address.
+
+<p>
+In CLient-1 right click the start menu and go to System settings. CLick on Rename PC (Advanced) and change the domain name to mydomain.com. Use mydomain.com\jane_admin and hit Ok. It will shut down your VM for a restart.
+  
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/33c39294-4aa8-4aee-b8d8-1c8a98559c3e)
+
+</p>
+<br />
+
+<p>
+
+On DC-1 you can see Client-1 show up under the Computers container. Create a Organizational Unit called _CLIENTS and put Client-1 in it.
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/c4331c09-8112-46cc-a39b-1bbd93ba5342)
+
+</p>
+<br />
+
+<p>
+Log back into CLient-1 and go to System Settings and go to Remote Desktop and add Domain Names so that non-administrative users can remotely log on.
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/4cc2ffbe-7a6f-44c2-94ff-460585335118)
+
+</p>
+
