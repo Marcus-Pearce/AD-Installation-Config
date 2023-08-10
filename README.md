@@ -25,30 +25,36 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a 2 Virtural Machines
+- Check Connectivity
+- Configure Active Directory
+- Provision and De Provision
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
+Create a Virtual Machine inside of a Resource Group called RG-AD. Select the Windows Server 2022 for this machine naming it DC-1 for Domain Controller.
+</p>
 
-![image](https://github.com/Mrpearce92/configure-ad-/assets/140969692/0ecd8505-8bc8-4fc6-af8e-4912b76443fe)
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/05c8b083-c177-4de2-8004-48987f1b66cb)
+
 
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br />
 
 <p>
+Create a second virtual machine as the client and name it Client-1. Select Windows 10 for this virtual machine.
 
-![image](https://github.com/Mrpearce92/configure-ad-/assets/140969692/6c4eb8e6-dbb4-41bd-ad2b-cac6bbec5e20)
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/436a174f-b9b3-41fb-9852-4d5defc961b1)
+
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Change the IP Address of DC-1 to static.
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/8afb951d-83a1-45f1-991e-77446983ce54)
+
 </p>
 <br />
 
