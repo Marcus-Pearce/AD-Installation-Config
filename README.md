@@ -1,4 +1,4 @@
-# configure-ad-
+# Active Directory Installation Configuration
 <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create a 2 Virtural Machines
 - Check Connectivity
 - Configure Active Directory
-- Provision and De Provision
+- Provisioning
 
 <h2>Deployment and Configuration Steps</h2>
 
