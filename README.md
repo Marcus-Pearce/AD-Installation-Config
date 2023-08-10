@@ -102,13 +102,15 @@ Create a new forest named mydomain.com
 
 <p>
 
-The VM will close due to restart needed after Active Directory is installed. Log back into DC-1 with mydomain.com/labuser.
+The VM will close due to restart needed after Active Directory is installed. Log back into DC-1 with mydomain.com\labuser. Make sure it is a backslash (\) and not a forward slash (/) or the login won't work. You can always use the name itself  
 
-![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/a68788fc-be76-4588-8e60-56883d97c654)
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/a5082e2b-4e66-4508-86f6-3dc259e775ce)
+
 
 </p>
 <br />
 Go to Active Directory Users and Computers on the Tools drop down.
+
 ![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/80820c53-999d-4439-bb05-491319d7afab)
 
 <p>
@@ -120,7 +122,7 @@ Create a new Organizational Unit named _EMPLOYEES and one named _ADMINS.
 <br />
 
 <p>
-Create a new users named Jane and John Doe. Add Jane to the Domain Admins security group.
+Create a new users named Jane and John Doe. Add Jane to the Domain Admins security group. Make sure to add Jane to the Admins group you just created.
  
 ![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/99a377e8-b453-4b86-a908-b60de25c0efb)
 
