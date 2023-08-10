@@ -81,16 +81,26 @@ Go to Windows FireWall Settings Advanced on DC-1 and then Inbound Rules. Sort by
 <br />
 
 <p>
+In DC-1 go to the Server Manager and click Add roles and features. Continue steps and make sure to select Active Directory Domain Servies box.
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/384e7296-2141-488d-ab68-ca3c909b072d)
+
 
 </p>
 <br />
 
 
 <p>
+Promote the server to a domain controller by going to the caution notification at the top right .
+  
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/419629bd-ae98-42d4-84e6-8bd58c194a8f)
 
 </p>
 <br />
 
+Create a new forest named mydomain.com
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/cf0c43be-1109-48bd-8006-be83a825d6f7)
 
 <p>
 
