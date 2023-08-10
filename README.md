@@ -66,13 +66,31 @@ Go to Remote Desktop and log in to Client-1's Public IP Address using the creden
 
 </p>
 <p>
+Open the command line.Use command ping -t to ping the Private IP Address of DC-1 perpetually. This is used to check connectivity between DC-1 and Client-1. DC-1 is currently not receiving the ping due to the firewall. Open a new Remote Desktop on your main computer and log in to DC-1 using the Public IP Address. 
+  
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/0c5ad400-6a2d-4a11-b8fa-e4864edf3883)
 
 </p>
 <br />
 <p>
+Go to Windows FireWall Settings Advanced on DC-1 and then Inbound Rules. Sort by protocol and find ICMPv4 and enable it. Switch back to CLient-1 and watch the ping succeed. Hit Control+C on the Command Line to stop the ping,
+
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/a5f55615-f8e4-402e-9788-84dcedb8446b)
 
 </p>
 <br />
+
+<p>
+
+</p>
+<br />
+
+
+<p>
+
+</p>
+<br />
+
 
 <p>
 
