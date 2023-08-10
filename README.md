@@ -59,9 +59,10 @@ Change the IP Address of DC-1 to static.
 <br />
 
 <p>
+Go to Remote Desktop and log in to Client-1's Public IP Address using the credentials used when creating the VM.
+  
+![image](https://github.com/Marcus-Pearce/AD-Installation-Config/assets/140969692/1ee0ae44-d3af-467c-bcb1-2ba2d5a5e9b4)
 
-
-![image](https://github.com/Mrpearce92/configure-ad-/assets/140969692/97ef0020-e0e2-4434-b6d0-f7390c96607b)
 
 </p>
 <p>
