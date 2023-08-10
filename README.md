@@ -25,8 +25,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Create a 2 Virtural Machines
-- Check Connectivity
+- Create 2 Virtural Machines
+- Check Connectivity between VM's
 - Configure Active Directory
 - Provisioning
 
